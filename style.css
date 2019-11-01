@@ -1,0 +1,234 @@
+@font-face{
+	font-family:LatinskijC-Italic;
+	src:url(DZ/fonts/LatinskijC-Italic.otf);
+}
+@font-face{
+	font-family:PT-Serif-Pro-Book;
+	src:url(DZ/fonts/PT-Serif-Pro-Book.otf);	
+}
+@font-face{
+	font-family:Cyrillic-Times-ET;
+	src:url(DZ/fonts/Cyrillic-Times-ET.otf);	
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1{
+	float:left;
+}
+span{
+	float:left;
+	color:#e0e0e0;
+	font-style: oblique;
+	margin-top: 20px;
+	font-family: Cyrillic-Times-ET;
+	font-size: 13px;
+}
+.header{
+	width:100%;
+}
+.container{
+	width:80%;
+	padding:20px 0px;
+	margin:auto;
+	clear:both;
+	display:table;
+}
+.logo{
+	float:left;
+}
+.sitename{
+	float:left;
+	text-transform: uppercase; 
+	font-family: 'Oswald', sans-serif;
+	color: red;
+	font-size: 25pt;
+	font-weight: 600;
+}
+.user{
+	float:right;
+}
+.login{
+	float:right;
+	text-transform:uppercase; 
+	font-family: LatinskijC-Italic;
+	background: transparent;
+	border: none;
+	font-size: 7pt;
+	padding: 12px 40px;
+}
+.contact{
+	float:right;
+	text-transform:uppercase; 
+	font-family: LatinskijC-Italic;
+	color:white;
+	background:red;
+	border: none;
+	padding: 12px 40px;
+	font-size: 7pt;
+}
+.searchInfo{
+	width:100%;
+	background: #292929;
+}
+.menuSearch{
+	width:80%;
+	clear:both;
+	display:table;
+	margin:auto;
+}
+.menu{
+	float:left;
+}
+.menu li{
+	float:left;
+	text-transform:uppercase; 
+	font-family: 'Oswald', sans-serif;
+	color:#f6f6f6;
+	padding: 20px;
+	font-size: 10pt;
+}
+.active{
+	background: red;
+}
+.search{
+	float:right;
+	text-transform:uppercase; 
+	font-family: LatinskijC-Italic;
+	color:#e0e0e0;
+	background: white;
+	border:2px solid #f6f6f6;
+	padding: 10px;
+	font-size: 7pt;
+	font-weight: 100;
+	margin-top: 10px;
+	margin-right: 25px;
+}
+.info h1{
+	text-transform:capitalize; 
+	font-family: 'Oswald', sans-serif;
+	font-size: 25pt;
+	padding:30px 0px;
+}
+.infoList{
+	width: 100%;
+	margin:auto;
+	background: #f6f6f6;
+	color: #292929;
+}
+.info{
+	width:80%;
+	margin:auto;
+	font-family: PT-Serif-Pro-Book;
+}
+.text{
+	clear:both;
+	display:table;
+	line-height:150%;
+}
+.info h3{
+	list-style-type:none;
+	font-weight: 900;
+	padding:20px 0px 10px 0px;
+}
+.info ul{
+	padding:0px 0px 20px 0px;
+}
+.info li{
+	list-style-type:disc;
+	list-style-position: inside;
+	line-height:150%;
+	font-size: 9pt;
+}
+.recentNews{
+	width:100%;
+	clear:both;
+	display:table;
+	background: #f6f6f6;
+	padding-bottom: 10%;
+}
+.divs{
+	width:80%;
+	clear:both;
+	display:table;
+	margin:auto;
+}
+.divs img{
+	width: 100%;
+	height: 110px;
+	margin-bottom:10px;
+}
+.divs p{
+	width:100%;
+	font-family: 'Oswald', sans-serif;
+	color:#292929;
+	font-size: 10pt;
+	line-height:130%;
+}
+.divs div{
+	width:15%;
+	float:left;
+	padding-right:15px;
+}
+.recent{
+	width:80%;
+	margin: auto;
+	text-transform:uppercase;
+	font-family: 'Oswald', sans-serif;
+	color:red;
+	font-size: 9pt;
+	padding: 20px 0px;
+}
+.fa-key{
+	color:red;
+	transform: rotate(270deg);
+	margin-right: 7px;
+}
+.fa-search{
+	margin-left:130px;
+}
